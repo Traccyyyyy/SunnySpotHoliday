@@ -27,9 +27,6 @@ if (isset($_POST["submit"])){
         $sqlC="INSERT INTO Cabin(cabinType,cabinDescription,pricePerNight,pricePerWeek,photo) 
         VALUES ('$cType','$cDescription','$ppn','$ppw','$photo')";
         $sql=mysqli_query($db,$sqlC);
-        echo "Insert successful";
-        echo "<script>setTimeout(function(){ window.location.href = 'adminMenu.php'; }, 1000);</script>";
-        exit;
-    
+echo "Insert successful";
 }
 ?>

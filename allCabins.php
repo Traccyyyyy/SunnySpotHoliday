@@ -10,21 +10,21 @@
 
 <body>
     <!-- header area -->
-<div id="header1">
-  <nav>
+    <div id="header1">
+    <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="allCabins.php">Accommodation</a></li>
         <li><a href="Contact.html">Contact Us</a></li>
         <li><a href="admin/login.php">Admin</a> </li>
         </ul>
-  </nav>
+      </nav>
   <header> 
     <div>
-      <img src="images/accommodation.png" alt="Accommodation">
-      <h1>Sunny Spot Holidays</h1>
-    </div>
-    <h2>Accommodation</h2>
+    <img src="images/accommodation.png" alt="Accommodation">
+    <h1>Sunny Spot Holidays</h1>
+  </div>
+      <h2>Accommodation</h2>
   </header>
 </div>
 <div id="wrapper">
@@ -47,7 +47,6 @@
     }
     ?>
   </section>
-
   
   <footer> 
     <ul>

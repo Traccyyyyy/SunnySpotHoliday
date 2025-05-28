@@ -6,7 +6,7 @@
     <title>Insert a new cabin</title>
     <link href="https://fonts.googleapis.com/css?family=Quando&display=swap" rel="stylesheet">
     <link href="../style.css" rel="stylesheet" type="text/css">
-  </head>
+</head>
 
 <body>
 <div id="header1">
@@ -47,24 +47,16 @@ while ($row=mysqli_fetch_array($sql)){
   echo "<input type='hidden' name='cabinTypeUp' value='".$row['cabinType']."'>";
   echo "<input type='submit' name='Update' value='Update'>";
   echo "</form>";
-  echo "<form action='delete.php' method='POST' onsubmit='return confirmDelete()'>";
+  echo "<form action='delete.php' method='POST'>";
   echo "<input type='hidden' name='cabinTypeDe' value='".$row['cabinType']."'>";
   echo "<input type='submit' name='delete' value='Delete'>";
   echo "</form></article>";
+  
 }
 ?>
-    <script>
-        function confirmDelete(){
-    if(!confirm("Are you sure you want to delete this cabin?)")){
-      alert("sth");
-      return false;
-    }else {
-      return true;
-    }}
-</script>
-</div>
-</div>
 
+</div>
+</div>
 
 <footer> 
   <ul>

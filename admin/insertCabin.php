@@ -29,11 +29,11 @@
 
     <h2>Please enter new cabin details.</h2>
     <form action="insertProcess.php" method="POST" onsubmit="return check();" enctype="multipart/form-data">
-        <label for="cType">Cabin Type</label><input type="text" name="cType" id="cType">
-        <label for="cDescription">Cabin description</label><input type="text" name="cDescription" id="cDescription">
-        <label for="ppn">Price per night</label><input type="number" name="ppn" id="ppn" min="0">
-        <label for="ppw">Price per week</label><input type="text" name="ppw" id="ppw" min="0">
-        <label for="photoUpload">Photo</label><input type="file" name="photoUpload" id="photoUpload" accept="image/*">
+        <label for="cType">Cabin Type<input type="text" name="cType" id="cType"></label>
+        <label for="cDescription">Cabin description<input type="text" name="cDescription" id="cDescription"></label>
+        <label for="ppn">Price per night<input type="number" name="ppn" id="ppn" min="0"></label>
+        <label for="ppw">Price per week<input type="text" name="ppw" id="ppw" min="0"></label>
+        <label for="photoUpload">Photo<input type="file" name="photoUpload" id="photoUpload" accept="image/*"></label>
         <input type="submit" name="submit">
     </form>
             <script>

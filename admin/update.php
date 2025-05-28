@@ -35,15 +35,15 @@
   <form action="updateProcess.php" method="POST" onsubmit="return;check();" enctype="multipart/form-data">
     <h2>Cabin to update <?php echo $_SESSION['cabinTypeUp']; ?></h2>
     <p>Please enter details to update.</p>
-    <label for="cType">Cabin Type</label><input type="text" name="cType" id="cType">
-    <label for="cDescription">Cabin description</label><input type="text" name="cDescription" id="cDescription">
-    <label for="ppn">Price per night</label><input type="number" name="ppn" id="ppn" min="0">
-    <label for="ppw">Price per week</label><input type="text" name="ppw" id="ppw" min="0">
-    <label for="photoUpload">Photo</label><input type="file" name="photoUpload" id="photoUpload" accept="image/*">
+    <label for="cType">Cabin Type<input type="text" name="cType" id="cType"></label>
+    <label for="cDescription">Cabin description<input type="text" name="cDescription" id="cDescription"></label>
+    <label for="ppn">Price per night<input type="number" name="ppn" id="ppn" min="0"></label>
+    <label for="ppw">Price per week<input type="text" name="ppw" id="ppw" min="0"></label>
+    <label for="photoUpload">Photo<input type="file" name="photoUpload" id="photoUpload" accept="image/*"></label>
     <input type="submit" name="submit">
     <script>
       function check() {
-        if (parseInt(document.getElementById("ppn").value)* 5 < parseInt(document.getElementById("ppw").value)) {
+        if (document.getElementById("ppn").value * 5 < parseInt(document.getElementById("ppw").value)) {
           alert("Price per week cannot be more than five time price per night!");
         }
       }
