@@ -143,24 +143,6 @@ The project includes two SQL files in the `database` directory:
    - Store image paths in database
    - Display images with cabin details
 
-## Screenshots
-
-### Database Design (ERD)
-![Database ERD](screenshots/database_erd.png)
-*Entity Relationship Diagram showing table relationships and structure*
-
-### Cabin Listings
-![Cabin Listings](screenshots/cabins.png)
-*Database-driven display of all available cabin types with prices*
-
-### Admin Login
-![Admin Login](screenshots/admin-login.png)
-*Secure login system with database authentication*
-
-### Cabin Management
-![Cabin Management](screenshots/admin-manage.png)
-*Interface for performing CRUD operations on cabin data*
-
 ---
 
 ## Acknowledgment
